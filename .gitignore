@@ -1,0 +1,56 @@
+# Models (large binary files)
+models/
+*.gguf
+
+# Build artifacts
+llama.cpp/build/
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# Build scripts (local/machine-specific)
+build*.bat
+build*.ps1
+build*.log
+configure.bat
+do_build.bat
+rebuild.bat
+rebuild.ps1
+rebuild2_stdout.log
+
+# Test scripts (local/machine-specific)
+test_*.bat
+
+# Test output files
+mtp*_stderr.txt
+mtp*_stdout.txt
+test_output.txt
+test_stderr.txt
+test_stdout.txt
+
+# Local setup scripts
+run.sh
+setup.sh
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Claude Code working files
+CLAUDE.md
+.claude/
